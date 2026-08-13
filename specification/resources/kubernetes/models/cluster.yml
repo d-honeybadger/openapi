@@ -203,6 +203,12 @@ properties:
   nvidia_gpu_device_plugin:
     $ref: "nvidia_gpu_device_plugin.yml"
 
+  amd_dra_driver_plugin:
+    $ref: "amd_dra_driver_plugin.yml"
+
+  nvidia_dra_driver_plugin:
+    $ref: "nvidia_dra_driver_plugin.yml"
+
   rdma_shared_dev_plugin:
     $ref: "rdma_shared_dev_plugin.yml"
 

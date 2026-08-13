@@ -1,0 +1,8 @@
+type: object
+nullable: true
+description: An object specifying whether the Nvidia DRA Driver Plugin should be enabled in the Kubernetes cluster. It enables Dynamic Resource Allocation (DRA) for Nvidia GPUs.
+properties:
+  enabled:
+    type: boolean
+    description: Indicates whether the Nvidia DRA Driver Plugin is enabled.
+    example: true
